@@ -33,7 +33,6 @@ function getBalance(statement) {
     return balance;
 }
 
-
 app.post('/account', (request, response) => {
     const { cpf, name } = request.headers;
 
